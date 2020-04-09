@@ -6,7 +6,7 @@ let firstNum = +prompt('Введите первое число'),
     min = firstNum < secondNum ? firstNum : secondNum,
     buf = 0;
 
-for (let i = min; i < max; i++) {
+for (let i = min; i <= max; i++) {
     buf += i;
 }
 alert(buf);
